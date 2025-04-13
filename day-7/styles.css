@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    inline-size: 100%;
+    block-size: 100vh;
+    background-image: url("login-hero-bg.jpg");
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.login-card{
+    background-color: rgba(255,255,255,0);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid white;
+    backdrop-filter: blur(8px);
+    padding-block-start:50px;
+    padding-inline:40px;
+    padding-block-end:30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2)
+}
+.login-card h2{
+    display: flex;
+    padding-bottom: 25px;
+    justify-content: center;
+    color: white; 
+}
+.login-card input::placeholder{
+    color: white;
+}
+.login-card input{
+    background-color: transparent;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    margin:10px 0;
+    border: none;
+    border-radius: 5px;
+}
+.login-card button{
+    /* width: 100%; */
+    background-color:white;
+    margin-top:30px;
+    border-radius:5px;
+    padding-block:8px;
+    color:black;
+    border:none;
+    cursor: pointer;
+}
+p{
+    color: white;
+    padding-block-start:40px;
+    font-weight:15px;
+
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}

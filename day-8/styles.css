@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: 'Helvetica Neue', Arial, sans-serif;
+   width: 100%;
+   height: 100vb;
+   background-color:  #f9f9f9;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+h1{
+    font-size: 35px;
+    margin-block-start: 30px;
+}
+.resume{
+    width: 800px;
+    height: 1300px;
+    background-color: rgb(255, 255, 255);
+    padding-inline: 40px;
+    position: relative;
+}
+.resume::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 1%;
+    height:1300px;
+    background-color:rgb(83, 193, 236);
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+nav li{
+    background-color: #ecf2f6;
+    padding: 5px;
+    border-radius: 20px;
+    margin-block-end: 20px;
+}
+nav{
+    border-bottom : 1px solid #908d8d;
+    margin-block-end: 30px;
+}
+h3{
+    margin-block: 20px;
+    color : #56b5f5;
+    font-size: 23px;
+}
+h2{
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    color: #555;
+}
+h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 2px;
+    width: 100%;
+    background-color:  #3498db;
+}
+p{
+    margin-block: 20px;
+    line-height: 1.8rem;
+}
+.title{
+    background-color:rgb(250, 249, 249);
+    margin-block: 20px;
+    padding: 20px;
+    line-height: 1.8rem;
+    border-radius: 5px;
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+}
+h4{
+    color:#56b5f5;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+h5{
+    border-radius: 20px;
+    color:#7f8c8d;
+    background-color: rgb(223, 235, 241);
+    padding-inline: 10px;
+}
+span {
+    font-size: 17px;
+    font-weight: 100;
+    font-family: cursive;
+    position: relative;
+    padding-inline-start: 5px;
+    padding-block-start: 20px;
+}
+span::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    width:2px;
+    height: 30px;
+    background-color: rgb(246, 92, 92);
+}
+button{
+    all: initial;
+    padding: 10px;
+    font-family: inherit;
+    cursor: pointer;
+    all: initial;
+    box-shadow: -3px 0 0 skyblue;
+    background-color: rgb(221, 245, 255);
+    border-radius: 20px;
+    margin-inline-end: 20px;
+    margin-block-start: 30px;
+    padding:6px;
+}

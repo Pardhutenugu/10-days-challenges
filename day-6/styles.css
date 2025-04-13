@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    inline-size:100% ;
+    block-size: 100vh;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: black;
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+    box-shadow: 0,2px,3px 0.2;
+}
+.insta-img{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    padding-block-end: 30px;
+    padding-block-start:100px;
+    font-size: 40px;
+}
+.input{
+    display: flex;
+    margin-block-end: 30px;
+    flex-direction: column;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    border:2px solid rgb(174, 172, 172);
+    background-color: transparent;
+}
+.login-btn{
+    background-color: rgb(61, 61, 230);
+    border-radius: 10px;
+    border: none;
+    padding-inline: 115px;
+    padding-block: 10px;
+    margin-block-end: 20px;
+    color: white;
+    font-size: 15px;
+}
+.btn-sign{
+    all: initial;
+    color: white;
+    color: rgb(0, 0, 255);
+}
+h3{
+    font-weight: 100;
+    font-size: 16px;
+}
+h4{
+    font-weight: 100;
+    font-size: 15px;
+}
+.logway{
+    padding: 30px;
+}
+img{
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+i{
+    padding: 5px;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 255);
+}
+.Appstores{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.password{
+    color: white;
+    margin-block-end: 15px;
+    background-color: black;
+    border: none;
+
+}
+.signup{
+    display: flex;
+    padding: 30px;
+}
